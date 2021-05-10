@@ -11,3 +11,56 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background-color: rgb(255, 250, 243);
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: 100;
+    color: rgb(209, 171, 119);
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.form-control {
+    color: rgb(209, 171, 119);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.brown {
+    background-color: white;
+    color: rgb(209, 171, 119);
+    border-color: rgb(209, 171, 119);
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list-group-item i {
+    display: none;
+    color: rgba(150, 47, 0, 0.74);
+}
+
+.list-group-item:hover {
+    i {
+        display: inline-block;
+    }
+}
+
+.list-group-item {
+    border-color: rgba(209, 172, 119, 0.5);
+}
+
+#task {
+    border: none;
+}
+
